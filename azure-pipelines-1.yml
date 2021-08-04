@@ -17,6 +17,12 @@ variables:
 steps:
 - task: NuGetToolInstaller@1
 
+- task: SonarQubePrepare@4
+  inputs:
+    SonarQube: 'sonar'
+    scannerMode: 'CLI'
+    configMode: 'file'
+
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '**/*.sl'
@@ -27,6 +33,12 @@ steps:
     publishWebProjects: True
     arguments: '--configuration $(BuildConfiguration) --output $(build.artifactstagingdirectory)'
     zipAfterPublish: false
+
+- task: SonarQubeAnalyze@4
+
+- task: SonarQubePublish@4
+  inputs:
+    pollingTimeoutSec: '300'
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish artifacts'
