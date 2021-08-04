@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{28992456-2CB5-4953-9F20-21B5F4F7EB38}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="helloworld/Pages/Index.cshtml" Line="10" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="helloworld" expanded="True">
+            <Node name="helloworld" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Index.cshtml" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.helloworld PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>
